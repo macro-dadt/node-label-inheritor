@@ -15,7 +15,6 @@ spec:
       annotations:
         nodeLabelsInherited: topology.kubernetes.io/region, topology.kubernetes.io/zone
       labels:
-        nodeLabelInheritence: "enabled"
         app: nginx
     spec:
       topologySpreadConstraints:
