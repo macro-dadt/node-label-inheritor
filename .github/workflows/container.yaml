@@ -6,6 +6,11 @@ on:
     - master
     tags:
     - v*
+    paths-ignore:
+    - chart/**
+    - .github/**
+    - examples/**
+    - README.md
   workflow_dispatch:
 
 env:
