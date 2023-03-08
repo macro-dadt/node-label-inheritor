@@ -5,5 +5,5 @@ Check out the deployment example at `examples/deployment.yaml`.
 
 ## Install
 ```
-helm upgrade --install node-label-inheritor oci://ghcr.io/protosam/charts/node-label-inheritor --dry-run
+helm upgrade --install node-label-inheritor oci://ghcr.io/protosam/charts/node-label-inheritor
 ```
