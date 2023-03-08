@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  CHART_LOCATION: protosam/charts
+  CHART_LOCATION: ${{ github.repository_owner }}/charts
 
 permissions:
   contents: write
