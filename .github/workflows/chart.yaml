@@ -5,7 +5,7 @@ on:
     branches:
     - master
     paths:
-    - charts/**
+    - chart/**
   workflow_dispatch:
 
 env:
