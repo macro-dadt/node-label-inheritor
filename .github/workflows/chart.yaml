@@ -3,9 +3,9 @@ name: Helm chart
 on:
   push:
     branches:
-      - master
+    - master
     paths:
-      - charts/**
+    - charts/**
   workflow_dispatch:
 
 env:
